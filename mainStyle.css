@@ -1,0 +1,9 @@
+/*please note, I had a lot of help from w3 schools when I couldn't find help in my notes*/
+body {
+    background-color: azure;
+    font-family: sans-serif; color:darkslateblue; font-size: 24px;
+}
+
+h1 {
+    text-align: center;   
+}
