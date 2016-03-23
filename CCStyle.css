@@ -1,8 +1,8 @@
 body {
     margin: 0;
     margin-right: 5%;
-    background-color: azure;
-    font-family: sans-serif; color:darkslateblue; font-size: 24px;
+    background-color: white;
+    font-family: sans-serif; color:black; font-size: 24px;
 }
 
 h1 {
@@ -14,6 +14,7 @@ menuBar {
     list-style-type: none;
     padding: 0;
     float: right;
+    text-align: center;
     position: absolute; right: 0;
     width: 5%;
     background-color: #f1f1f1;
@@ -21,3 +22,14 @@ menuBar {
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
+
+li {
+    float: none;
+    display: inline;
+}
+
+.centerLinks {
+    float:
+}
+
+        
