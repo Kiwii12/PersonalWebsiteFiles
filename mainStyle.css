@@ -1,23 +1,43 @@
 body {
-    margin: 0;
-    margin-right: 5%;
-    background-color: azure;
-    font-family: sans-serif; color:darkslateblue; font-size: 24px;
+    margin: 5%;
+    margin-right: 10%;
+    margin-top: 2%;        
+    background-color: azure; /* For Browsers that don't support any of the below */
+    background: -webkit-linear-gradient(azure, aqua); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(azure, aqua); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(azure, aqua); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(azure, aqua); /* Standard syntax */
+    font-family: sans-serif; color:saddlebrown; font-size: 24px;
 }
 
 h1 {
     text-align: center;   
 }
 
-
-menuBar {
-    list-style-type: none;
-    padding: 0;
-    float: right;
-    position: absolute; right: 0;
+div.Menu{
+    position: absolute; right: 0; top: 0;
     width: 5%;
-    background-color: #f1f1f1;
+    background-color: black; /* For Browsers that don't support any of the below */
+    background: -webkit-linear-gradient(left, black , gainsboro); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, black, gainsboro); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, black, gainsboro); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, black , gainsboro); /* Standard syntax */
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+ul.menuBar {
+    list-style-type: none;
+    display: block;
+    position: absolute; top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+}
+
+header.custom {
+    background-image: url(images/blue-bubbles-background-1.jpg);
+    color: cyan;
+    border-style: solid;
+    border-color: darkblue;
 }
